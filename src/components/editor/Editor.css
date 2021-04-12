@@ -1,0 +1,45 @@
+.Editor {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Editor__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.Editor__input:not(:first-of-type) {
+    margin-top: 20px;
+}
+
+.Editor__input label {
+    font-size: 16px;
+}
+
+.Editor__input input[type="text"] {
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.Editor__checkbox {
+    flex-direction: row;
+}
+
+.Editor__checkbox input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.Editor button {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #1d3557;
+    border: 0;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}

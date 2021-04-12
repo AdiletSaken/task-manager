@@ -1,0 +1,54 @@
+.Task {
+    padding: 15px;
+    height: 50px;
+    position: relative;
+    background-color: #edf2f4;
+    cursor: pointer;
+}
+
+.Task:not(:first-of-type) {
+    margin-top: 5px;
+}
+
+.Task--highlighted {
+    border-left: 5px solid #0ead69;
+}
+
+.Task__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Task__info h3 {
+    margin: 0;
+    font-size: 18px;
+    user-select: none;
+}
+
+.Task__info p {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    user-select: none;
+}
+
+.Task button {
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 0;
+    line-height: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Task button img {
+    width: 10px;
+    height: 10px;
+}
+
+.Task button img {
+    filter: invert(44%) sepia(85%) saturate(3799%) hue-rotate(331deg) brightness(89%) contrast(104%);
+}
